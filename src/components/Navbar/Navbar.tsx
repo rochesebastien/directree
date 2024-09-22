@@ -6,15 +6,18 @@ import './Navbar.css';
 const Navbar: React.FC = () => {
     return (
         <nav className="navbar">
-            <ul className="navbar__list">
-                <li className="navbar__item">
+            <ul className="navbar_list">
+                <li className="navbar_item">
                     <Link to="/">Home</Link>
                 </li>
-                <li className="navbar__item">
+                <li className="navbar_item">
                     <Link to="/about">About</Link>
                 </li>
-                <li className="navbar__item">
-                    <Link to="/contact">Contact</Link>
+                <li className="navbar_item">
+                    <Link to="/features">Features</Link>
+                </li>
+                <li className="navbar_item">
+                    <Link to="/coming">Coming soon</Link>
                 </li>
             </ul>
         </nav>
