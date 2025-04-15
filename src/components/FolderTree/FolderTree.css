@@ -1,0 +1,113 @@
+/* FolderTree.css */
+.folder-tree-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.folder-tree-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.folder-tree-header h2 {
+  margin: 0;
+  color: #333;
+}
+
+.view-switch-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.view-switch-buttons button {
+  background-color: #eee;
+  color: #333;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-switch-buttons button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.view-switch-buttons button:hover {
+  background-color: #d5d5d5;
+}
+
+.folder-tree-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.folder-tree-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.folder-tree-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.folder-tree-ide,
+.folder-tree-tree {
+  width: 100%;
+}
+
+.folder-tree-tree {
+  white-space: pre;
+}
+
+.folder-name,
+.file-name {
+  cursor: pointer;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.folder-name:hover,
+.file-name:hover {
+  color: #007bff;
+}
+
+.tree-item-indent {
+  margin-left: 20px;
+}
+
+.annotation {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.tree-item-buttons {
+    display: inline;
+    margin-left: 10px;
+}
+
+.tree-item-buttons button {
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 0.8em;
+    transition: color 0.3s ease;
+}
+
+.tree-item-buttons button:hover {
+    color: #0056b3;
+}

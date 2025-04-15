@@ -1,8 +1,8 @@
-type File = {
-    id : string;
+export type File = {
+    id: number;
     name: string;
-    extension: string;
-    indentation: number;
+    annotation: string;
+    parentFolderId: number;
 };
 
-export default File;
+

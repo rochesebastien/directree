@@ -1,0 +1,39 @@
+.tree-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 2px;
+  border-radius: 4px;
+}
+
+.tree-item-name {
+  flex-grow: 1;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.tree-item-name:hover {
+  text-decoration: underline;
+}
+
+.tree-item-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.tree-item-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tree-item-button:hover {
+  background-color: #367c39;
+}

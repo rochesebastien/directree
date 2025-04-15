@@ -1,0 +1,61 @@
+.project-manager {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.project-name {
+  flex-grow: 1;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.project-buttons button {
+  background-color: #d0d0d0;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.project-buttons button:hover {
+  background-color: #c0c0c0;
+}
+
+.create-project-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.create-project-button:hover {
+  background-color: #45a049;
+}
