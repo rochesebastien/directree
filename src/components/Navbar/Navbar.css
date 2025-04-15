@@ -35,6 +35,14 @@
 .navbar_list li{
     list-style: none;
 }
+
+.navbar_list li .primary{
+    text-decoration: none;
+    color: var(--color-primary-contrast, #fff)!important;
+    transition: background-color 0.3s ease;
+    background-color: var(--color-primary-dark, #1E1E1E);
+}
+
 .navbar_list li a{
     text-decoration: none;
     color: var(--color-primary-dark, #1E1E1E);
@@ -58,24 +66,4 @@
     color: var(--color-primary-dark, #1E1E1E);
     background-color: var(--color-primary-dark, #1E1E1E);
     color: var(--color-primary-contrast, #fff);
-}
-
-.navbar_list li .primary{
-    text-decoration: none;
-    color: var(--color-primary-dark, #1E1E1E);
-    font-size: 18px;
-    padding: 10px 20px;
-    border-radius: 14px;
-    transition: background-color 0.3s ease;
-    font-family: var(--font-primary, 'Mona Sans'), sans-serif;
-    text-transform: uppercase;
-    font-variation-settings: 'wdth' 150, 'wght' 500;
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: 125%;
-    text-align: center;
-    background-color: var(--color-primary-dark, #1E1E1E);
-    color: var(--color-primary, #E9E90C);
-    border-radius: 14px;
-    /* border: 2px solid var(--color-primary-contrast, #fff); */
 }
