@@ -1,16 +1,25 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  /* background-color: #e9e90c; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  --color-primary: #E9E90C;
+  --color-primary-light: #4a90e2;
+
+  --color-primary-dark: #1E1E1E;
+  --color-primary-contrast: #fff;
+  --font-primary: 'Mona Sans', sans-serif;
 }
 
 body {
@@ -19,4 +28,6 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--color-primary, #E9E90C);
+  font-family: var(--font-primary, 'Mona Sans'), sans-serif;
 }

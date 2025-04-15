@@ -6,18 +6,21 @@ import './Navbar.css';
 const Navbar: React.FC = () => {
     return (
         <nav className="navbar">
+            <Link to="/" id='logo'>
+                <img src="/nav_logo.png" alt="nav_logo" />
+            </Link>
             <ul className="navbar_list">
                 <li className="navbar_item">
-                    <Link to="/">Home</Link>
+                    <Link to="#about">About</Link>
                 </li>
                 <li className="navbar_item">
-                    <Link to="/about">About</Link>
+                    <Link to="/extension">Extension</Link>
                 </li>
                 <li className="navbar_item">
-                    <Link to="/features">Features</Link>
+                    <Link to="#features">Features</Link>
                 </li>
                 <li className="navbar_item">
-                    <Link to="/coming">Coming soon</Link>
+                    <Link to="/tree" className='primary'>Let's Tree</Link>
                 </li>
             </ul>
         </nav>
