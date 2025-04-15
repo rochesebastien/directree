@@ -1,5 +1,4 @@
 import './HomePage.scss'
-import ProjectManager from '../../components/ProjectManager/ProjectManager';
 
 function HomePage() {
 
@@ -8,7 +7,6 @@ function HomePage() {
     <>
       <div className='home-page'>
         <h1>HomePage</h1>
-        <ProjectManager />
       </div>
     </>
   )

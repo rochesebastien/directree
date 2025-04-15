@@ -1,4 +1,5 @@
-import './CreatorPage.scss'
+// import './CreatorPage.scss'
+import ProjectManager from '../../components/ProjectManager/ProjectManager';
 
 function CreatorPage() {
 
@@ -6,6 +7,7 @@ function CreatorPage() {
   return (
     <>
       <h1>CreatorPage</h1>
+      <ProjectManager />
     </>
   )
 }

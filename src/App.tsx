@@ -1,14 +1,24 @@
-import './App.css'
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
 
+import './App.css'
 import Navbar from './components/Navbar/Navbar'
-import ProjectManager from './components/ProjectManager/ProjectManager'
+import CreatorPage from './pages/CreatorPage/CreatorPage';
+import ExtensionPage from './pages/ExtensionPage/ExtensionPage';
+
+
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <ProjectManager />
+      <Routes>
+        <Route path="/tree" element={<CreatorPage />} />
+        <Route path="/extensions" element={<ExtensionPage />} />
+      </Routes>
     </>
   )
 }

@@ -1,4 +1,4 @@
-import './ExtensionPage.scss'
+// import './ExtensionPage.scss'
 
 function ExtensionPage() {
 
